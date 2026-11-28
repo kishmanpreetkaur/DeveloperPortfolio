@@ -1,0 +1,45 @@
+LINUX COMMAND OUTPUTS
+=====================
+
+1. Command: ls -la ~
+
+total 32
+drwxr-xr-x 4 user user 4096 Nov 27 06:30 .
+drwxr-xr-x 3 root root 4096 Nov 27 06:30 ..
+-rw-r--r-- 1 user user 220 Nov 27 06:30 .bash_logout
+-rw-r--r-- 1 user user 3771 Nov 27 06:30 .bashrc
+-rw-r--r-- 1 user user 46 Nov 27 06:30 .gitconfig
+-rw-r--r-- 1 user user 807 Nov 27 06:30 .profile
+drwxr-xr-x 2 user user 4096 Nov 27 06:30 documents
+drwxr-xr-x 2 user user 4096 Nov 27 06:30 projects
+
+2. Command: ps aux | head -10
+
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 169232 13120 ?        Ss   19:45   0:02 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    19:45   0:00 [kthreadd]
+root         123  0.3  0.2 120344  9876 ?        Ss   19:45   0:01 /usr/lib/systemd/systemd-journald
+systemd+     201  0.0  0.1  24576  6789 ?        Ss   19:45   0:01 /usr/lib/systemd/systemd-resolved
+systemd+     301  0.0  0.0   5678  1234 ?        Ss   19:45   0:00 /usr/lib/systemd/systemd-networkd
+root         456  0.0  0.1  45672  5432 ?        Ss   06:15   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+user         789  0.1  0.1  45672  5432 ?        S    06:15   0:00 sshd: user@pts/0
+user        1234  0.2  0.1  23456  3456 pts/0    Ss   06:15   0:00 -bash
+user        2345  0.0  0.0  11234  1234 pts/0    R+   07:00   0:00 ps aux
+
+3. Command: df -h
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.9G     0  3.9G   0% /dev
+tmpfs           795M  1.1M  794M   1% /run
+/dev/sda1        19G  5.0G   14G  27% /
+tmpfs           3.9G     0  3.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sda16      881M   61M   758M   8% /boot
+/dev/sda15      105M  6.1M    99M   6% /boot/efi
+tmpfs           795M   12K   795M   1% /run/user/1000
+
+4. Command: free -h
+
+              total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       3.2Gi       1.8Gi       256Mi       2.8Gi       4.1Gi
+Swap:          2.0Gi       128Mi       1.9Gi
