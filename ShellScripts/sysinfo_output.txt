@@ -1,0 +1,23 @@
+==========================================
+       SYSTEM INFORMATION REPORT
+==========================================
+Name: Kishmanpreet Kaur
+Roll Number: 2601730397
+Date: Sat Nov 28 11:45:59 IST 2026
+
+CPU INFORMATION
+CPU Model: Apple M5
+CPU Cores: 10
+
+MEMORY INFORMATION
+Total Memory: 16.00 GiB
+Used Memory: 9.74 GiB
+
+TOP 3 PROCESSES BY CPU USAGE
+root              1897  22.3  0.2 435362784  37136   ??  Ss    8:21PM   0:06.85 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService
+_windowserver      166  12.6  1.0 436325120 164368   ??  Ss   Fri11AM  22:51.81 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+_trustd            671   4.3  0.1 435361856  15568   ??  Ss   Fri11AM   0:29.47 /usr/libexec/trustd
+
+==========================================
+Report generated successfully.
+==========================================
